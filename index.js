@@ -2,11 +2,10 @@ module.exports = function ChatMemes(mod) {
 	
 	mod.command.add(["meme"], (arg_1, arg_2, arg_3, arg_4, arg_5, arg_6, arg_7, arg_8, arg_9, arg_10) => {
 		
-		if(arg_1 === "0" 	|| arg_1 === "1" 	|| arg_1 === "2" 	|| arg_1 === "3" 	|| arg_1 === "4" 	|| arg_1 === "5"
-		|| arg_1 === "6" 	|| arg_1 === "7" 	|| arg_1 === "8" 	|| arg_1 === "9" 	|| arg_1 === "10" 	|| arg_1 === "11"	
-		|| arg_1 === "12" 	|| arg_1 === "13" 	|| arg_1 === "14" 	|| arg_1 === "15" 	|| arg_1 === "16" 	|| arg_1 === "17"
-		|| arg_1 === "18" 	|| arg_1 === "19" 	|| arg_1 === "20" 	|| arg_1 === "21" 	|| arg_1 === "22" 	|| arg_1 === "23"
-		|| arg_1 === "24" 	|| arg_1 === "25")
+		if(arg_1 === "0" 	|| arg_1 === "1" 	|| arg_1 === "2" 	|| arg_1 === "3" 	|| arg_1 === "4" 	|| arg_1 === "9"
+		|| arg_1 === "11" 	|| arg_1 === "12" 	|| arg_1 === "13" 	|| arg_1 === "14" 	|| arg_1 === "15" 	|| arg_1 === "16"	
+		|| arg_1 === "17" 	|| arg_1 === "18" 	|| arg_1 === "21" 	|| arg_1 === "25" 	|| arg_1 === "26" 	|| arg_1 === "27"
+		|| arg_1 === "32" 	|| arg_1 === "213" 	|| arg_1 === "214")
 		{
 			
 			if (arg_2 == null)
@@ -91,7 +90,9 @@ module.exports = function ChatMemes(mod) {
 		}
 		else
 		{
-			mod.command.message("/8 meme [0-25] text")
+			mod.command.message("# say = 0 | party = 1 | guild = 2 | area = 3 | trade = 4 | greet = 9")
+			mod.command.message("# private = 11-18 | p-notice = 21 | emote = 26 | global = 27 | r-notice = 25")
+			mod.command.message("# raid = 32 | megaphone = 213 | guild-adv = 214")
 		}
 	})
 		
