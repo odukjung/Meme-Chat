@@ -90,7 +90,7 @@ module.exports = function ChatMemes(mod) {
 		}
 		else
 		{
-			mod.command.message("meme [Num Channel] [Text]")
+			mod.command.message("/8 meme [Num Channel] [Text]")
 			mod.command.message("---------------------------------")
 			mod.command.message("Num Channel")
 			mod.command.message("# say = 0 | party = 1 | guild = 2 | area = 3 | trade = 4 | greet = 9")
