@@ -93,9 +93,7 @@ module.exports = function ChatMemes(mod) {
 			mod.command.message("/8 meme [Num Channel] [Text]")
 			mod.command.message("---------------------------------")
 			mod.command.message("Num Channel")
-			mod.command.message("# say = 0 | party = 1 | guild = 2 | area = 3 | trade = 4 | greet = 9")
-			mod.command.message("# private = 11-18 | p-notice = 21 | emote = 26 | global = 27 | r-notice = 25")
-			mod.command.message("# raid = 32 | megaphone = 213 | guild-adv = 214")
+			mod.command.message("# say = 0 | party = 1 | guild = 2 | area = 3 | trade = 4 | greet = 9 | private = 11-18 | p-notice = 21 | emote = 26 | global = 27 | r-notice = 25 | raid = 32 | megaphone = 213 | guild-adv = 214")
 			mod.command.message("---------------------------------")
 		}
 	})
