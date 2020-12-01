@@ -10,7 +10,7 @@
 | 4 = Trade |
 | 9 = Greet |
 | 11-18 = Private |
-| 21 = Party-notice) |
+| 21 = Party-notice |
 | 25 = Raid-notice|
 | 26 = Emote |
 | 27 = Global |
